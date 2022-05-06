@@ -1,0 +1,68 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header,
+.main,
+.footer {
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left_aside,
+.main_section,
+.right_aside {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main_section {
+    flex-grow: 2;
+    position: relative;
+}
+
+.theme_button {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    background: rgb(55, 56, 58);
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.on_off {
+    color: rgb(230, 42, 51);
+}
+
+.header {
+    background: linear-gradient(to right bottom, rgb(212, 210, 210), rgb(21, 203, 206));
+}
+
+.footer {
+    background: linear-gradient(to right top, rgb(221, 226, 221), rgb(87, 226, 32));
+}
+
+.left_aside {
+    background: linear-gradient(to right bottom, rgb(238, 134, 134), rgb(233, 211, 86));
+}
+
+.main_section {
+    background: linear-gradient(to left top, rgb(218, 130, 226), rgb(109, 141, 248));
+}
+
+.right_aside {
+    background: linear-gradient(to left top, rgb(189, 74, 99), rgb(252, 194, 194));
+}

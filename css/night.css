@@ -1,0 +1,23 @@
+.header {
+    background: linear-gradient(to right bottom, rgb(122, 29, 29), rgb(72, 48, 129));
+}
+
+.footer {
+    background: linear-gradient(0deg, rgb(96, 131, 13), rgb(2, 77, 31));
+}
+
+.left_aside {
+    background: linear-gradient(to left, rgb(12, 66, 80), rgb(5, 3, 87));
+}
+
+.main_section {
+    background: linear-gradient(30deg, rgb(90, 32, 95), rgb(5, 18, 61));
+}
+
+.right_aside {
+    background: linear-gradient(to right, rgb(117, 17, 39), rgb(5, 3, 3));
+}
+
+.on_off {
+    color: rgb(23, 128, 66);
+}
